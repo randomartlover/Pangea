@@ -1,0 +1,118 @@
+
+@font-face {
+    font-family: 'Exodar-Outline';
+    src: url('Exodar-Outline/Exodar-Outline.eot'); /* IE9 Compat Modes */
+    src: url('Exodar-Outline/Exodar-Outline.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Exodar-Outline/Exodar-Outline.woff') format('woff'), /* Modern Browsers */
+         url('Exodar-Outline/Exodar-Outline.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('Exodar-Outline/Exodar-Outline.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+.Logo{
+    font-family: 'Exodar-Outline', Fallback, sans-serif;
+    font-size: 2em;
+    color: black;
+
+  
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 10px 30px 8px;
+    
+}
+
+
+.nav-left {
+    float: left;
+}
+
+.nav-left ul li {
+    float: left;
+}
+
+.nav-right ul li {
+    float: right;
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+    margin: 6px;
+    font-weight: bolder;
+}
+
+body{
+    background-image: url('background.jpg');
+    margin:40px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+   
+
+}
+
+
+.Button-getStarted{
+    color: white;
+    border-radius: 5px;
+    border: hidden;
+    background-color: rgb(52, 116, 255);
+    padding:10px;
+    font-size: 0.7em;
+    box-shadow: 0 4px 8px 0 rgba(95, 146, 255, 0.226), 0 6px 8px 0 rgb(175, 204, 248);
+    font-weight: lighter;
+
+  }
+
+section{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.Section-main{
+    width: 50%;
+    margin: auto;
+    font-size: 1.1em;
+}
+
+
+h2{
+    font-size: 1.6em;
+}
+
+p{
+ 
+    font-weight: 600;
+}
+
+@media (max-width: 809px){
+    .Logo{
+        font-size: 1.5em;
+    }
+    .Section-main{
+        width: 70%;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 499px) { 
+    .Logo{
+        font-size: 1em;
+    }
+    .Navbar-right{
+       font-size: 10px;
+       padding:10px;
+       margin: 0;
+        
+    }   .nav-right ul li {
+       float: none;
+   }
+   .Section-main{
+       width: 70%;
+       font-size: 10px;
+   }
+
+
+}
+   
