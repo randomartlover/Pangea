@@ -8,16 +8,14 @@
          url('Exodar-Outline/Exodar-Outline.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
-body{
+body {
     font-family: 'Nunito', sans-serif;
 }
 
-.Logo{
+.Logo {
     font-family: 'Exodar-Outline', Fallback, sans-serif;
     font-size: 2em;
     color: black;
-
-  
 }
 
 nav ul {
@@ -26,7 +24,6 @@ nav ul {
     padding: 0 50px 30px 50px;
     
 }
-
 
 .nav-left {
     float: left;
@@ -48,7 +45,7 @@ a {
     font-weight: bolder; 
 }
 
-body{
+body {
     background-image: url('background.jpg');
     margin:40px;
     background-repeat: no-repeat;
@@ -57,7 +54,7 @@ body{
 }
 
 
-.Button-getStarted{
+.Button-getStarted {
     color: white;
     border-radius: 5px;
     border: hidden;
@@ -68,51 +65,56 @@ body{
     font-weight: lighter;
   }
 
-section{
+section {
     text-align: center;
     padding-bottom: 20px;
 }
 
-.Section-main{
+.Section-main {
     width: 40%;
     margin: auto;
     font-size: 1em;
     color: rgb(104, 104, 104);
 }
 
-h2{
+h2 {
     font-size: 1.6em;    
 }
 
-p{
+p {
  font-size: 13px;
  font-weight: 700;
  color: rgb(145, 143, 143);
 }
 
-@media (max-width: 809px){
+@media (max-width: 809px) {
     .Logo{
         font-size: 1.5em;
     }
-    .Section-main{
+
+    .Section-main {
         width: 70%;
         font-size: 18px;
     }
 }
 
 @media (max-width: 499px) { 
-    .Logo{
+    .Logo {
         font-size: 1em;
     }
-    .Navbar-right{
+
+    .Navbar-right {
        font-size: 10px;
        padding:10px;
        margin: 0;
         
-    }   .nav-right ul li {
+    }
+
+    .nav-right ul li {
        float: none;
    }
-   .Section-main{
+
+   .Section-main {
        width: 70%;
        font-size: 10px;
    }
