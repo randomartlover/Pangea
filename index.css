@@ -7,21 +7,23 @@
          url('Exodar-Outline/Exodar-Outline.ttf')  format('truetype'), /* Safari, Android, iOS */
          url('Exodar-Outline/Exodar-Outline.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
-.Logo{
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+.Logo {
     font-family: 'Exodar-Outline', Fallback, sans-serif;
     font-size: 2em;
     color: black;
-
-  
 }
 
 nav ul {
     list-style-type: none;
     margin: 0;
-    padding: 0 10px 30px 8px;
+    padding: 0 50px 30px 50px;
     
 }
-
 
 .nav-left {
     float: left;
@@ -39,80 +41,82 @@ a {
     text-decoration: none;
     color: grey;
     margin: 6px;
-    font-weight: bolder;
+    font-size: smaller;
+    font-weight: bolder; 
 }
 
-body{
+body {
     background-image: url('background.jpg');
     margin:40px;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-   
-
 }
 
 
-.Button-getStarted{
+.Button-getStarted {
     color: white;
     border-radius: 5px;
     border: hidden;
     background-color: rgb(52, 116, 255);
-    padding:10px;
+    padding:12px 15px 12px 15px;
     font-size: 0.7em;
     box-shadow: 0 4px 8px 0 rgba(95, 146, 255, 0.226), 0 6px 8px 0 rgb(175, 204, 248);
     font-weight: lighter;
-
   }
 
-section{
+section {
     text-align: center;
     padding-bottom: 20px;
 }
 
-.Section-main{
-    width: 50%;
+.Section-main {
+    width: 40%;
     margin: auto;
-    font-size: 1.1em;
+    font-size: 1em;
+    color: rgb(104, 104, 104);
 }
 
-
-h2{
-    font-size: 1.6em;
+h2 {
+    font-size: 1.6em;    
 }
 
-p{
- 
-    font-weight: 600;
+p {
+ font-size: 13px;
+ font-weight: 700;
+ color: rgb(145, 143, 143);
 }
 
-@media (max-width: 809px){
+@media (max-width: 809px) {
     .Logo{
         font-size: 1.5em;
     }
-    .Section-main{
+
+    .Section-main {
         width: 70%;
         font-size: 18px;
     }
 }
 
 @media (max-width: 499px) { 
-    .Logo{
+    .Logo {
         font-size: 1em;
     }
-    .Navbar-right{
+
+    .Navbar-right {
        font-size: 10px;
        padding:10px;
        margin: 0;
         
-    }   .nav-right ul li {
+    }
+
+    .nav-right ul li {
        float: none;
    }
-   .Section-main{
+
+   .Section-main {
        width: 70%;
        font-size: 10px;
    }
-
-
 }
    
